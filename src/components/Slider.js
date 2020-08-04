@@ -49,7 +49,7 @@ class Slider extends Component {
 
     return (
       <div className="screen-container">
-        <img src={image} className="image-single" alt={image} />
+        <img src={image} className="single-pane" alt={image} />
       </div>
     )
   }
