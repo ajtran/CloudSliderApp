@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 8px;
 }
 
 .App-link {
@@ -35,4 +36,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.image-small {
+  width: 100px;
+  height: 150px;
+}
+
+.lineup-container {
+  padding: 8px;
+}
+
+.slider-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+}
+
+.button-container {
+  padding: 16px;
+}
+
+.screen-container {
+  width: 900px;
+}
+
+.image-single {
+  width: 600px;
+  height: 900px;
+}
+
+.image-double {
+  width: 450px;
+  height: 675px;
+}
+
+.image-triple {
+  width: 300px;
+  height: 450px;
 }
